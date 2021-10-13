@@ -1,6 +1,6 @@
 # Fast (MiniBatch) Fréchet Inception Distance (FID)
 Compute (and backpropagate) fast through FID. 
-You can start by using the <a href="">minimal working example</a> below or <a href="https://colab.research.google.com/drive/1PTI9Nwl0BkJsEt7dsOJUklvrk56YhnWc?usp=sharing">this notebook</a> which fine-tunes BigGAN to minimize FID. 
+You can start by using the <a href="https://github.com/AlexanderMath/FastFID/blob/main/minimal_working_example.py">minimal working example</a> below or <a href="https://colab.research.google.com/drive/1PTI9Nwl0BkJsEt7dsOJUklvrk56YhnWc?usp=sharing">this notebook</a> which fine-tunes BigGAN to minimize FID. 
 
 ## Minimal Working Example 
 The code below uses a function ```fid(imagesA, imagesB)``` supporting backpropagating wrt ```imagesA```.
